@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Phạm Ngọc Duy - Game Developer</title>
+    <style>
+        :root {
+            --primary-color: #007bff;
+            --bg-color: #1a1a1a;
+            --text-color: #e0e0e0;
+            --card-bg: #2d2d2d;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+        header {
+            background: linear-gradient(135deg, #000 0%, #333 100%);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 2rem;
+        }
+        section {
+            margin-bottom: 3rem;
+        }
+        h2 {
+            border-left: 5px solid var(--primary-color);
+            padding-left: 15px;
+            color: #fff;
+        }
+        .skill-tag {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            font-size: 0.9rem;
+        }
+        .project-card, .cert-card {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        .project-card h3, .cert-card h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+        .contact-info a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.8rem;
+            border-top: 1px solid #333;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>PHẠM NGỌC DUY</h1>
+        <p>Game Developer | C++ | C# | Blueprint</p>
+        <div>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">C#</span>
+            <span class="skill-tag">Unreal Engine Blueprint</span>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <section id="about">
+            <h2>Giới thiệu</h2>
+            <p>Tôi là sinh viên ngành Công nghệ thông tin tại <strong>Đại học Sư phạm TP.HCM</strong>. Với niềm đam mê mãnh liệt trong việc phát triển trò chơi, tôi tập trung vào việc làm chủ các công cụ mạnh mẽ như Unreal Engine và rèn luyện tư duy logic qua các ngôn ngữ lập trình hệ thống.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Dự án tiêu biểu</h2>
+            
+            <div class="project-card">
+                <h3>Ứng dụng chỉ đường cho xe điện</h3>
+                <p>Phát triển giải pháp hỗ trợ di chuyển tối ưu cho phương tiện điện, tích hợp dữ liệu thực tế và thuật toán tìm đường.</p>
+                <em>Kỹ năng: Thuật toán, Xử lý dữ liệu.</em>
+            </div>
+
+            <div class="project-card">
+                <h3>Hệ thống quản lý quán Cafe</h3>
+                <p>Xây dựng phần mềm quản lý dựa trên kiến trúc 3 lớp (DAO/DTO/BUS), giúp tối ưu hóa quy trình vận hành và lưu trữ dữ liệu.</p>
+                <em>Kỹ năng: C#, SQL Server, WinForms.</em>
+            </div>
+        </section>
+
+        <section id="certificates">
+            <h2>Chứng chỉ</h2>
+            <div class="cert-card">
+                <ul>
+                    <li><strong>Unreal Engine 5.6 Essential Training</strong></li>
+                    <li><strong>Unreal Engine: Game Terrain Techniques</strong></li>
+                    <li><strong>Learning Character Development and Design</strong></li>
+                    <li>Games for Developing Collaborative Skills in Teams</li>
+                    <li>Open to Work: Building Key Career Skills in the Age of AI</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Liên hệ</h2>
+            <div class="project-card">
+                <p>📍 <strong>Đại học Sư phạm TP.HCM</strong></p>
+                <p>📧 Email: <a href="mailto:anhduy09a@gmail.com">anhduy09a@gmail.com</a></p>
+                <p>📞 SĐT: 0345.451.488</p>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Phạm Ngọc Duy. Built with HTML/CSS on GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
