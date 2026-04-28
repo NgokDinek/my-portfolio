@@ -16,4 +16,4 @@
 - **Liên hệ:** Thông tin để kết nối trực tiếp.
 
 ## 📸 Hình ảnh mô tả
-![Giao diện Portfolio]
+![Giao diện Portfolio](portfolio.png)
